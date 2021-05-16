@@ -1,0 +1,1 @@
+krakend run -c krakend-config.json -d
