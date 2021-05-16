@@ -34,7 +34,15 @@
       "output_encoding": "json",
       "extra_config": {
         "github.com/devopsfaith/krakend/proxy": {
-          "sequential": false
+          "sequential": false,
+          "static": {
+            "data": {
+              "isActive": true,
+              "name": "username from static proxy",
+              "timeStamp": "2021-05-16T16:08:42.515945+08:00"
+            },
+            "strategy": "incomplete"
+          }
         }
       },
       "backend": [

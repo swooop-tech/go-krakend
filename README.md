@@ -2,7 +2,9 @@
 
 This repository is a sample project to simply test krakend api gateway with a very simple api backend simulation.
 
-To run, make sure **krakend cli** is installed in your machine and run:
+Before running the krakend api gateway, make sure the simulated backend api is running first via `go run main.go`
+
+To run the gateway, make sure **krakend cli** is installed in your machine and run:
 
 `krakend run -c krakend-config.json` -d
 

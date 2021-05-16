@@ -25,7 +25,7 @@ func main() {
 
 func helloWorld(w http.ResponseWriter, r *http.Request) {
 	user := User{
-		Name:      "Write presentation",
+		Name:      "Dummy Username from backend",
 		IsActive:  true,
 		Timestamp: time.Now(),
 	}
