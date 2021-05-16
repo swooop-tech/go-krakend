@@ -1,3 +1,9 @@
-# basic-go-kit
+# go-krakend
 
-This repository is based on the [Basic Microservices with the Gokit Toolkit](https://www.youtube.com/watch?v=sjd2ePF3CuQ&t=388s) from Youtube.
+This repository is a sample project to simply test krakend api gateway with a very simple api backend simulation.
+
+To run, make sure **krakend cli** is installed in your machine and run:
+
+`krakend run -c krakend-config.json` -d
+
+You can then call the endpoint configured in the json through postman and krakend will automatically call and delegate the backend response to the client.
